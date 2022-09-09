@@ -1,0 +1,67 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package provacomvetor;
+
+import javax.swing.JOptionPane;
+
+public class Provacomvetor {
+    public static void main(String[] args) {
+  
+        int n1,n2,n3,n4,n5,maior,menor;
+        
+        n1 = Integer.parseInt (JOptionPane.showInputDialog (""
+        + "Digite o numero inteiro n1"));
+        
+        maior = n1;
+        menor = n1;
+        
+        n2 = Integer.parseInt (JOptionPane.showInputDialog (""
+        + "Digite o numero inteiro n2"));
+        
+        if ( n2 < menor){
+            menor = n2;
+        }
+        
+        if ( n2 > maior){
+            maior = n2;
+        }
+        
+        n3 = Integer.parseInt (JOptionPane.showInputDialog (""
+        + "Digite o numero inteiro n3"));
+        
+        if (n3 < menor){
+            menor = n3;
+        }
+        
+        if (n3 > maior){
+            maior = n3;
+        }
+        
+        n4 = Integer.parseInt (JOptionPane.showInputDialog (""
+        + "Digite o numero inteiro n4"));
+        
+        if (n4 < menor){
+            menor = n4;
+        }
+       
+        if (n4 > maior){
+            maior = n4;
+        }
+        
+       n5 = Integer.parseInt (JOptionPane.showInputDialog (""
+        + "Digite o numero inteiro n5"));
+       
+       if (n5 < menor){
+           menor = n5;
+       }
+       
+       if (n5 > maior){
+           maior = n5;
+       }
+       
+      JOptionPane.showMessageDialog (null, "Os valores inteiros digitados"
+      +" são: MAIOR->"+ maior+ ", e MENOR->"+menor);
+    }
+}
